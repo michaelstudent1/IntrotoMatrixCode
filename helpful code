@@ -1,0 +1,17 @@
+doexit = false
+while doexit == false:
+    print("press 'w' to quit")
+    letter = input() 
+    print("press q to continue") 
+    
+
+    a = 0
+    while a < 6:
+        a += 1
+        if a == 3:
+            continue
+        print(a)
+
+doexit =  false 
+while doexit == false:
+    print("print e to end the game")
